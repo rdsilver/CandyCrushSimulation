@@ -225,6 +225,7 @@ function windowResized() {
 
 function resizeSketch() {
   resizeCanvas(window.innerWidth, window.innerHeight - 300);
+  grid = new Grid();
 }
 
 // That stackoverflow feels
