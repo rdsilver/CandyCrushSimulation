@@ -219,6 +219,14 @@ function createColors(count) {
 	return arr;
 }
 
+function windowResized() {
+  resizeSketch();
+}
+
+function resizeSketch() {
+  resizeCanvas(window.innerWidth, window.innerHeight - 300);
+}
+
 // That stackoverflow feels
 function createArray(length) {
     var arr = new Array(length || 0),

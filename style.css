@@ -8,6 +8,7 @@ body {
 
 .slider p{
 	margin-bottom: 0px;
+	font-size: 20px;
 }
 
 input[type=range] {
