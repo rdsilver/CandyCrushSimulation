@@ -5,7 +5,7 @@ var cube_size = 30;
 var speed = 10;
 
 function setup() {
-  var myCanvas = createCanvas(displayWidth, displayHeight - 400);
+  var myCanvas = createCanvas(window.innerWidth, window.innerHeight - 300);
   myCanvas.parent('sketch');
   
   // Create Sliders
