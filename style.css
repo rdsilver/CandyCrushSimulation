@@ -1,0 +1,15 @@
+body {
+	padding: 0; margin: 0;
+}
+
+.slider {
+	text-align: center;
+}
+
+.slider p{
+	margin-bottom: 0px;
+}
+
+input[type=range] {
+    width: 300px;
+}
