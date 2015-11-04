@@ -228,7 +228,6 @@ function resizeSketch() {
   grid = new Grid();
 }
 
-// That stackoverflow feels
 function createArray(length) {
     var arr = new Array(length || 0),
         i = length;
